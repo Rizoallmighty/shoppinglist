@@ -1,0 +1,23 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+header{
+    color: white;
+    text-align: center;
+    position: relative
+}
+main {
+    position: relative;
+}
+.shopping{
+    color: white;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: white;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}

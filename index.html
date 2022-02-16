@@ -12,20 +12,46 @@
       <h1>Shopping List</h1>
     </header>
     <main>
-      <div class="shopping container__one">
+      <div id="storage-container" class="shopping container__one">
         <h2>What do you have in storage?</h2>
-        <ol id="storage-list"></ol>
+        <input
+          type="text"
+          id="storage-name-input"
+          placeholder="Insert food/item here"
+        />
+        <button onclick="addToStorage()">Add</button>
+        <ul id="storage-list"></ul>
       </div>
-      <div class="shopping container__two">
+      <div id="temp-container" class="shopping container__two">
         <h2>What is running low in storage?</h2>
-        <ol id="temp-list"></ol>
+        <input
+          type="text"
+          id="temp-name-input"
+          placeholder="Insert food/item here"
+        />
+        <button onclick="addToTemp()">Add</button>
+        <ul id="temp-list"></ul>
       </div>
-      <div class="shopping container__three">
+      <div id="need-container" class="shopping container__three">
         <h2>What do you need purchase now?</h2>
-        <ol id="need-list"></ol>
+        <input
+          type="text"
+          id="need-name-input"
+          placeholder="Insert food/item here"
+        />
+        <input
+          type="number"
+          id="need-price-input"
+          placeholder="Insert price here"
+        />
+        <button onclick="addToNeed()">Add</button>
+        <ul id="need-list"></ul>
       </div>
     </main>
     <footer></footer>
     <script src="index.js"></script>
+    <script src="storage.js"></script>
+    <script src="temp.js"></script>
+    <script src="need.js"></script>
   </body>
 </html>
