@@ -18,8 +18,14 @@ function addToNeed() {
 function listNeed() {
   needList.innerHTML = "";
   for (let i = 0; i < needArray.length; i++) {
-    needList.innerHTML += `<li>${needArray[i].name} - ${needArray[i].price}kr
+    if (needArray[i].price == 0) {
+      alert("ERROR");
+    } else if (needArray.price == NaN) {
+      alert("ERROR");
+    } else {
+      needList.innerHTML += `<li>${needArray[i].name} - ${needArray[i].price}kr
     <button id="delete-btn" onclick="deleteNeed(${i})">-</button></li>`;
+    }
   }
 }
 
