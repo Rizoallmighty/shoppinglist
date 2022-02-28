@@ -38,3 +38,11 @@ function deleteNeed(i) {
     console.log("nothing happens");
   }
 }
+
+// let totalPrice = document.getElementById("total-price");
+
+// function yourTotal() {
+//   for (let i = 0; i < needArray.length; i++) {
+//     totalPrice.innerHTML += needArray.price;
+//   }
+// }
