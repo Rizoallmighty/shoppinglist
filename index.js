@@ -1,0 +1,1 @@
+alert ("Welcome! Use the program by adding ur items, u can remove them aswell!")
